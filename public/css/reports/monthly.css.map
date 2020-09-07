@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../../resources/sass/reports/monthly.scss"
+    ],
+    "names": [],
+    "file": "monthly.css"
+}

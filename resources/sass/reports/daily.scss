@@ -1,0 +1,91 @@
+body {
+  font-size: 13px;
+}
+
+header {
+  margin-bottom: 3rem;
+  .wrap-top {
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #5c38fd;
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    -webkit-box-align: center;
+    > div {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+      flex: 1;
+      padding: 3px 0 0 5px;
+      &:last-child {
+        margin-right: 3px;
+        text-align: right;
+      }
+    }
+  }
+
+  .page-title {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .report-date {
+    text-align: right;
+  }
+}
+
+main {
+  margin-top: 3rem;
+  .wrap-quotation-table {
+    margin-bottom: 3rem;
+  }
+
+  .wrap-purchas-order-table {
+    margin-bottom: 3rem;
+  }
+
+  .wrap-sale-order-table {
+    margin-bottom: 3rem;
+  }
+
+  .wrap-invoice-table {
+    margin-bottom: 3rem;
+  }
+}
+
+table {
+  width: 100%;
+  tr {
+    th {
+      background-color: #f2f2f2;
+      font-size: 12px;
+      height: 30px;
+      border-left: 1px solid #222;
+      border-top: 1px solid #222;
+      &:last-child {
+        border-right: 1px solid #222;
+      }
+    }
+    td {
+      height: 25px;
+      font-size: 12px;
+      padding: 3px;
+      text-align: center;
+      border-left: 1px solid #222;
+      border-top: 1px solid #222;
+      &.currency {
+        text-align: left;
+      }
+      &.price {
+        text-align: right;
+        border-left: none;
+      }
+      &:last-child {
+        border-right: 1px solid #222;
+      }
+    }
+    &:last-child {
+      td {
+        border-bottom: 1px solid #222;
+      }
+    }
+  }
+}

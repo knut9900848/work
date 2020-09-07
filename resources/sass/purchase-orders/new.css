@@ -1,0 +1,174 @@
+@page {}.page-break {
+  page-break-after: always;
+}
+
+.prevent-break {
+  page-break-inside: avoid;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 10px;
+  color: #222;
+}
+
+.first-page-header .section-left {
+  float: left;
+  width: 45%;
+}
+
+.first-page-header .section-left .company-logo {
+  margin-bottom: 20px;
+}
+
+.first-page-header .section-left .company-info {
+  padding: 0;
+}
+
+.first-page-header .section-left .company-info h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.first-page-header .section-left .company-info ul {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+
+.first-page-header .section-left .company-info ul li {
+  list-style: none;
+  font-size: 9px;
+  line-height: 1.5;
+}
+
+.first-page-header .section-left .supplier-info {
+  margin-top: 20px;
+  padding: 0;
+}
+
+.first-page-header .section-left .supplier-info .title {
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 80px;
+}
+
+.first-page-header .section-left .supplier-info .info {
+  float: left;
+  padding-left: 80px;
+}
+
+.first-page-header .section-left .supplier-info .info h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.first-page-header .section-left .supplier-info .info h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.first-page-header .section-left .supplier-info .info p {
+  margin: 0;
+  padding: 0;
+}
+
+.first-page-header .section-left .supplier-info::after {
+  clear: both;
+  display: block;
+  content: '';
+}
+
+.first-page-header .section-right {
+  border: 0.6px solid #222;
+  width: 45%;
+  float: right;
+}
+
+.first-page-header .section-right .title {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 0.6px solid #222;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #222;
+  background-color: #ccc;
+}
+
+.first-page-header .section-right .info {
+  padding: 0;
+  margin: 0;
+  border-bottom: 0.6px  solid #222;
+  height: 45px;
+}
+
+.first-page-header .section-right .info h4 {
+  padding: 0;
+  margin-top: 3px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.first-page-header .section-right .info p {
+  padding: 0;
+  margin-left: 5px;
+  margin-bottom: 3px;
+}
+
+.first-page-header .section-right .info .number {
+  float: left;
+  width: 65%;
+  border-right: 0.6px solid #222;
+}
+
+.first-page-header .section-right .info .page {
+  float: right;
+  text-align: center;
+  width: 35%;
+}
+
+.first-page-header .section-right .info::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.first-page-header .section-right .empty {
+  border-bottom: 0.6px solid #222;
+  height: 25px;
+  background-color: #ccc;
+}
+
+.first-page-header .section-right .ship {
+  height: 50px;
+  border-bottom: 0.6px  solid #222;
+}
+
+.first-page-header .section-right .ship h4 {
+  margin: 3px 0 3px 5px;
+}
+
+.first-page-header .section-right .ship p {
+  margin: 0  0 3px 5px;
+}
+
+.first-page-header .section-right .originator {
+  min-height: 80px;
+}
+
+.first-page-header .section-right .originator h4 {
+  margin: 3px 0 3px 5px;
+}
+
+.first-page-header .section-right .originator p {
+  margin: 0  0 3px 5px;
+}
+
+.first-page-header::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+/*# sourceMappingURL=new.css.map */

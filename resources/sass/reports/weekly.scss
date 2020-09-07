@@ -1,0 +1,118 @@
+body {
+  font-size: 13px;
+}
+
+header {
+  .wrap-top {
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #5c38fd;
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    -webkit-box-align: center;
+    > div {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+      flex: 1;
+      padding: 3px 0 0 5px;
+      &:last-child {
+        margin-right: 3px;
+        text-align: right;
+      }
+    }
+  }
+
+  .page-title {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .report-date {
+    text-align: right;
+    color: #666;
+  }
+
+  .empty {
+    height: 30px;
+  }
+}
+
+main {
+  .section-title {
+    margin-bottom: 1rem;
+    color: #03396c;
+  }
+  .wrap-items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    > div {
+      width: 275px;
+      padding: 0;
+      border: 1px solid #ccc;
+      h3 {
+        margin-top: 0;
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        color: #666;
+        background-color: #f2f2f2;
+      }
+      .item-count {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #005b96;
+      }
+      .item-amount {
+        font-size: 0.9rem;
+        text-align: center;
+      }
+    }
+  }
+
+  .wrap-currencies {
+    margin-top: 1rem;
+    text-align: right;
+    color: #666;
+  }
+}
+
+table {
+  width: 100%;
+  tr {
+    th {
+      background-color: #f2f2f2;
+      font-size: 12px;
+      height: 30px;
+      border-left: 1px solid #222;
+      border-top: 1px solid #222;
+      &:last-child {
+        border-right: 1px solid #222;
+      }
+    }
+    td {
+      height: 25px;
+      font-size: 12px;
+      padding: 3px;
+      text-align: center;
+      border-left: 1px solid #222;
+      border-top: 1px solid #222;
+      &.currency {
+        text-align: left;
+      }
+      &.price {
+        text-align: right;
+        border-left: none;
+      }
+      &:last-child {
+        border-right: 1px solid #222;
+      }
+    }
+    &:last-child {
+      td {
+        border-bottom: 1px solid #222;
+      }
+    }
+  }
+}

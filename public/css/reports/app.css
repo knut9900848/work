@@ -1,0 +1,37 @@
+.wrap-component-table .theme--light.v-data-table thead tr th {
+  background-color: #056cf2;
+  color: #fff;
+}
+
+.wrap-component-table .theme--light.v-data-table tbody {
+  background-color: #f8f8f8;
+}
+
+.wrap-component-table .theme--light.v-data-table tfoot {
+  background-color: #ebebeb;
+}
+
+.wrap-dialog > .theme--light.v-card {
+  background-color: #ddd;
+}
+
+.wrap-work-content.theme--light.v-card {
+  background-color: #ddd !important;
+}
+
+.theme--light.v-tabs-items .wrap-sale-order,
+.theme--light.v-tabs-items .wrap-work,
+.theme--light.v-tabs-items .wrap-wcc,
+.theme--light.v-tabs-items .wrap-invoice,
+.theme--light.v-tabs-items .wrap-payment {
+  background-color: #ddd !important;
+}
+
+.work-table .v-data-table__wrapper tbody td {
+  font-size: 12px !important;
+}
+
+.account-transaction-table .v-data-table__wrapper tbody td {
+  font-size: 12px !important;
+}
+/*# sourceMappingURL=app.css.map */

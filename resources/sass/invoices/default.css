@@ -1,0 +1,276 @@
+body {
+  border: 1px solid #222;
+  font-size: 12px;
+  height: 100%;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+header .section-title {
+  width: 100%;
+  border-bottom: 1px solid #222;
+  display: -webkit-box;
+  -webkit-box-pack: justify;
+  -webkit-box-align: center;
+}
+
+header .section-title > div {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+      flex: 1;
+  padding: 3px 0 0 5px;
+}
+
+header .section-title > div:last-child {
+  margin-right: 15px;
+}
+
+header .section-title .title h1 {
+  margin: 0;
+  padding: 0;
+}
+
+header .section-info {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-pack: justify;
+  -webkit-box-align: center;
+}
+
+header .section-info > div {
+  width: 45%;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+      flex: 1;
+}
+
+header .section-info > div:last-child {
+  margin-right: 0;
+}
+
+header .section-info .invoice-info table {
+  text-align: left;
+  width: 500px;
+}
+
+header .section-info .invoice-info table tbody th {
+  width: 150px;
+}
+
+header .section-info .contact-info table {
+  text-align: left;
+}
+
+header .section-info .contact-info table tbody th {
+  width: 150px;
+}
+
+header .wrap-top {
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-pack: justify;
+  -webkit-box-align: stretch;
+  margin-bottom: 10px;
+}
+
+header .wrap-top > div {
+  width: 30%;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+      flex: 1;
+  -webkit-box-align: stretch;
+}
+
+header .wrap-top > div:last-child {
+  margin-right: 0;
+}
+
+header .wrap-top > div ul li {
+  line-height: 1.5;
+}
+
+header .wrap-top .bill-to {
+  border: 1px solid #222;
+  border-left: none;
+}
+
+header .wrap-top .bill-to .title {
+  margin: 0;
+  padding-left: 5px;
+  background-color: #ccc;
+}
+
+header .wrap-top .bill-to .list {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+header .wrap-top .deliver-to {
+  border: 1px solid #222;
+}
+
+header .wrap-top .deliver-to .title {
+  margin: 0;
+  padding-left: 5px;
+  background-color: #ccc;
+}
+
+header .wrap-top .deliver-to .list {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+header .wrap-top .remit-to {
+  border: 1px solid #222;
+  border-right: none;
+}
+
+header .wrap-top .remit-to .title {
+  margin: 0;
+  padding-left: 5px;
+  background-color: #ccc;
+}
+
+header .wrap-top .remit-to .list {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+main .wrap-item-list table {
+  width: 100%;
+}
+
+main .wrap-item-list table .total-title {
+  font-weight: bold;
+  text-align: right;
+  padding-right: 30px;
+}
+
+main .wrap-item-list table .total {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+main .wrap-item-list table .wrap-price .currency {
+  display: block;
+  float: left;
+  text-align: left;
+}
+
+main .wrap-item-list table .wrap-price .price {
+  display: block;
+  float: right;
+  text-align: right;
+}
+
+main .wrap-item-list table .wrap-price::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+main .wrap-item-list table thead th {
+  padding: 5px;
+  background-color: #ccc;
+  border-right: 1px solid #222;
+  border-bottom: 1px solid #222;
+}
+
+main .wrap-item-list table thead th:first-child {
+  border-left: none;
+}
+
+main .wrap-item-list table thead th:last-child {
+  border-right: none;
+}
+
+main .wrap-item-list table tbody td {
+  border-bottom: 1px solid #222;
+  border-right: 1px solid #222;
+  text-align: center;
+  padding: 5px;
+  height: 45px;
+}
+
+main .wrap-item-list table tbody td:first-child {
+  border-left: none;
+}
+
+main .wrap-item-list table tbody td:last-child {
+  border-right: none;
+}
+
+.wrap-packing-number {
+  margin-left: 5px;
+}
+
+.wrap-bottom {
+  padding: 15px;
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #222;
+  padding: 5px;
+  display: -webkit-box;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -webkit-box-align: stretch;
+}
+
+.wrap-bottom > div {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+      flex: 1;
+  -webkit-box-align: stretch;
+}
+
+.wrap-bottom > div:last-child {
+  margin-right: 0;
+}
+
+.wrap-bottom .payment table caption {
+  text-align: left;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+.wrap-bottom .payment table th {
+  width: 150px;
+}
+
+.wrap-bottom .payment table td {
+  width: 450px;
+}
+
+.wrap-bottom .payment table th,
+.wrap-bottom .payment table td {
+  padding: 5px;
+  border: 1px solid #222;
+}
+
+.wrap-bottom .signature {
+  width: 250px;
+  text-align: center;
+}
+
+.wrap-bottom .signature ul {
+  border-top: 2px solid #2196f3;
+}
+
+.wrap-bottom .signature ul li {
+  text-align: right;
+  line-height: 1.8;
+}
+
+.wrap-bottom .total table td {
+  border: 1px solid #222;
+  height: 30px;
+}
+/*# sourceMappingURL=default.css.map */

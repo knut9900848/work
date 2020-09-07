@@ -1,0 +1,130 @@
+body {
+  font-size: 13px;
+}
+
+header .wrap-top {
+  width: 100%;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #5c38fd;
+  display: -webkit-box;
+  -webkit-box-pack: justify;
+  -webkit-box-align: center;
+}
+
+header .wrap-top > div {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+      flex: 1;
+  padding: 3px 0 0 5px;
+}
+
+header .wrap-top > div:last-child {
+  margin-right: 3px;
+  text-align: right;
+}
+
+header .page-title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+header .report-date {
+  text-align: right;
+  color: #666;
+}
+
+header .empty {
+  height: 30px;
+}
+
+main .section-title {
+  margin-bottom: 1rem;
+  color: #03396c;
+}
+
+main .wrap-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+main .wrap-items > div {
+  width: 275px;
+  padding: 0;
+  border: 1px solid #ccc;
+}
+
+main .wrap-items > div h3 {
+  margin-top: 0;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #666;
+  background-color: #f2f2f2;
+}
+
+main .wrap-items > div .item-count {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #005b96;
+}
+
+main .wrap-items > div .item-amount {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+main .wrap-currencies {
+  margin-top: 1rem;
+  text-align: right;
+  color: #666;
+}
+
+table {
+  width: 100%;
+}
+
+table tr th {
+  background-color: #f2f2f2;
+  font-size: 12px;
+  height: 30px;
+  border-left: 1px solid #222;
+  border-top: 1px solid #222;
+}
+
+table tr th:last-child {
+  border-right: 1px solid #222;
+}
+
+table tr td {
+  height: 25px;
+  font-size: 12px;
+  padding: 3px;
+  text-align: center;
+  border-left: 1px solid #222;
+  border-top: 1px solid #222;
+}
+
+table tr td.currency {
+  text-align: left;
+}
+
+table tr td.price {
+  text-align: right;
+  border-left: none;
+}
+
+table tr td:last-child {
+  border-right: 1px solid #222;
+}
+
+table tr:last-child td {
+  border-bottom: 1px solid #222;
+}
+/*# sourceMappingURL=weekly.css.map */

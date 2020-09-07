@@ -1,0 +1,249 @@
+body {
+  font-size: 13px;
+}
+
+header {
+  .wrap-top {
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #5c38fd;
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    -webkit-box-align: center;
+    > div {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+      flex: 1;
+      padding: 3px 0 0 5px;
+      &:last-child {
+        margin-right: 3px;
+      }
+    }
+  }
+
+  .page-title {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .wrap-info-table {
+    table {
+      width: 100%;
+      margin-bottom: 15px;
+      td {
+        border: none;
+        line-height: 1.65;
+        &.number {
+          text-align: right;
+          font-weight: bold;
+        }
+        &.revision {
+          text-align: right;
+        }
+        &.branch,
+        &.address,
+        &.phone {
+          font-size: 12px;
+        }
+        &.page-number {
+          text-align: right;
+        }
+      }
+    }
+  }
+
+  .wrap-attention-table {
+    table {
+      width: 100%;
+      margin-bottom: 15px;
+      tr {
+        th {
+          background-color: #f2f2f2;
+          text-align: left;
+          padding-left: 5px;
+          line-height: 2;
+          width: 200px;
+          border-left: 1px solid #222;
+          border-top: 1px solid #222;
+        }
+        td {
+          padding-left: 5px;
+          border-left: 1px solid #222;
+          border-right: 1px solid #222;
+          border-top: 1px solid #222;
+        }
+        &:last-child {
+          th,
+          td {
+            border-bottom: 1px solid #222;
+          }
+        }
+      }
+    }
+  }
+
+  .wrap-originator-table {
+    margin-bottom: 15px;
+    table {
+      width: 100%;
+      tr {
+        th {
+          background-color: #f2f2f2;
+          text-align: left;
+          padding-left: 5px;
+          line-height: 2;
+          width: 200px;
+          border-left: 1px solid #222;
+          border-top: 1px solid #222;
+        }
+        td {
+          padding-left: 5px;
+          border-left: 1px solid #222;
+          border-right: 1px solid #222;
+          border-top: 1px solid #222;
+        }
+        &:last-child {
+          th,
+          td {
+            border-bottom: 1px solid #222;
+          }
+        }
+      }
+    }
+  }
+
+  .wrap-extra-table {
+    margin-bottom: 15px;
+    table {
+      width: 100%;
+      tr {
+        th {
+          background-color: #f2f2f2;
+          text-align: left;
+          padding-left: 5px;
+          line-height: 2;
+          width: 200px;
+          border-left: 1px solid #222;
+          border-top: 1px solid #222;
+        }
+        td {
+          padding-left: 5px;
+          border-left: 1px solid #222;
+          border-right: 1px solid #222;
+          border-top: 1px solid #222;
+        }
+        &:last-child {
+          th,
+          td {
+            border-bottom: 1px solid #222;
+          }
+        }
+      }
+    }
+  }
+}
+
+main {
+  .divider {
+    height: 15px;
+  }
+
+  .wrap-item-list {
+    margin-bottom: 15px;
+    table {
+      width: 100%;
+      tr {
+        th {
+          background-color: #f2f2f2;
+          font-size: 12px;
+          height: 30px;
+          border-left: 1px solid #222;
+          border-top: 1px solid #222;
+          &:last-child {
+            border-right: 1px solid #222;
+          }
+        }
+        td {
+          height: 25px;
+          font-size: 12px;
+          padding: 3px;
+          text-align: center;
+          border-left: 1px solid #222;
+          border-top: 1px solid #222;
+          &.currency {
+            text-align: left;
+          }
+          &.price {
+            text-align: right;
+            border-left: none;
+          }
+          &.total-title {
+            text-align: right;
+            padding-right: 15px;
+          }
+          &:last-child {
+            border-right: 1px solid #222;
+          }
+        }
+        &:last-child {
+          td {
+            border-bottom: 1px solid #222;
+          }
+        }
+      }
+    }
+  }
+
+  .notice {
+    background-color: #f2f2f2;
+    margin-bottom: 15px;
+    padding: 10px;
+    line-height: 1.65;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #222;
+  }
+
+  .wrap-remarks {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    -webkit-box-align: center;
+    > div {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+      flex: 1;
+    }
+
+    .remarks {
+      width: 500px;
+      line-height: 1.65;
+    }
+
+    .signature {
+      .stamp {
+        text-align: center;
+        border-bottom: 2px solid #5c38fd;
+      }
+      .signature-name {
+        text-align: right;
+        margin-bottom: 5px;
+      }
+      .signature-position {
+        text-align: right;
+        margin-top: 0;
+        margin-bottom: 15px;
+      }
+      .signature-branch {
+        text-align: right;
+      }
+    }
+  }
+}
+
+footer {
+  .caution {
+    font-size: 10px;
+    text-align: center;
+  }
+}

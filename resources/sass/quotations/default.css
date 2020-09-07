@@ -1,0 +1,251 @@
+body {
+  font-size: 13px;
+}
+
+header .wrap-top {
+  width: 100%;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #5c38fd;
+  display: -webkit-box;
+  -webkit-box-pack: justify;
+  -webkit-box-align: center;
+}
+
+header .wrap-top > div {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+      flex: 1;
+  padding: 3px 0 0 5px;
+}
+
+header .wrap-top > div:last-child {
+  margin-right: 3px;
+}
+
+header .page-title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+header .wrap-info-table table {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+header .wrap-info-table table td {
+  border: none;
+  line-height: 1.65;
+}
+
+header .wrap-info-table table td.number {
+  text-align: right;
+  font-weight: bold;
+}
+
+header .wrap-info-table table td.revision {
+  text-align: right;
+}
+
+header .wrap-info-table table td.branch, header .wrap-info-table table td.address, header .wrap-info-table table td.phone {
+  font-size: 12px;
+}
+
+header .wrap-info-table table td.page-number {
+  text-align: right;
+}
+
+header .wrap-attention-table table {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+header .wrap-attention-table table tr th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding-left: 5px;
+  line-height: 2;
+  width: 200px;
+  border-left: 1px solid #222;
+  border-top: 1px solid #222;
+}
+
+header .wrap-attention-table table tr td {
+  padding-left: 5px;
+  border-left: 1px solid #222;
+  border-right: 1px solid #222;
+  border-top: 1px solid #222;
+}
+
+header .wrap-attention-table table tr:last-child th,
+header .wrap-attention-table table tr:last-child td {
+  border-bottom: 1px solid #222;
+}
+
+header .wrap-originator-table {
+  margin-bottom: 15px;
+}
+
+header .wrap-originator-table table {
+  width: 100%;
+}
+
+header .wrap-originator-table table tr th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding-left: 5px;
+  line-height: 2;
+  width: 200px;
+  border-left: 1px solid #222;
+  border-top: 1px solid #222;
+}
+
+header .wrap-originator-table table tr td {
+  padding-left: 5px;
+  border-left: 1px solid #222;
+  border-right: 1px solid #222;
+  border-top: 1px solid #222;
+}
+
+header .wrap-originator-table table tr:last-child th,
+header .wrap-originator-table table tr:last-child td {
+  border-bottom: 1px solid #222;
+}
+
+header .wrap-extra-table {
+  margin-bottom: 15px;
+}
+
+header .wrap-extra-table table {
+  width: 100%;
+}
+
+header .wrap-extra-table table tr th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding-left: 5px;
+  line-height: 2;
+  width: 200px;
+  border-left: 1px solid #222;
+  border-top: 1px solid #222;
+}
+
+header .wrap-extra-table table tr td {
+  padding-left: 5px;
+  border-left: 1px solid #222;
+  border-right: 1px solid #222;
+  border-top: 1px solid #222;
+}
+
+header .wrap-extra-table table tr:last-child th,
+header .wrap-extra-table table tr:last-child td {
+  border-bottom: 1px solid #222;
+}
+
+main .divider {
+  height: 15px;
+}
+
+main .wrap-item-list {
+  margin-bottom: 15px;
+}
+
+main .wrap-item-list table {
+  width: 100%;
+}
+
+main .wrap-item-list table tr th {
+  background-color: #f2f2f2;
+  font-size: 12px;
+  height: 30px;
+  border-left: 1px solid #222;
+  border-top: 1px solid #222;
+}
+
+main .wrap-item-list table tr th:last-child {
+  border-right: 1px solid #222;
+}
+
+main .wrap-item-list table tr td {
+  height: 25px;
+  font-size: 12px;
+  padding: 3px;
+  text-align: center;
+  border-left: 1px solid #222;
+  border-top: 1px solid #222;
+}
+
+main .wrap-item-list table tr td.currency {
+  text-align: left;
+}
+
+main .wrap-item-list table tr td.price {
+  text-align: right;
+  border-left: none;
+}
+
+main .wrap-item-list table tr td.total-title {
+  text-align: right;
+  padding-right: 15px;
+}
+
+main .wrap-item-list table tr td:last-child {
+  border-right: 1px solid #222;
+}
+
+main .wrap-item-list table tr:last-child td {
+  border-bottom: 1px solid #222;
+}
+
+main .notice {
+  background-color: #f2f2f2;
+  margin-bottom: 15px;
+  padding: 10px;
+  line-height: 1.65;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #222;
+}
+
+main .wrap-remarks {
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-pack: justify;
+  -webkit-box-align: center;
+}
+
+main .wrap-remarks > div {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+      flex: 1;
+}
+
+main .wrap-remarks .remarks {
+  width: 500px;
+  line-height: 1.65;
+}
+
+main .wrap-remarks .signature .stamp {
+  text-align: center;
+  border-bottom: 2px solid #5c38fd;
+}
+
+main .wrap-remarks .signature .signature-name {
+  text-align: right;
+  margin-bottom: 5px;
+}
+
+main .wrap-remarks .signature .signature-position {
+  text-align: right;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+main .wrap-remarks .signature .signature-branch {
+  text-align: right;
+}
+
+footer .caution {
+  font-size: 10px;
+  text-align: center;
+}
+/*# sourceMappingURL=default.css.map */
